@@ -65,3 +65,6 @@ If you want to learn more about building native executables, please consult <htt
 Easily start your REST Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+## Kotlin Apprentice Book Repo
+https://github.com/kodecocodes/ka-materials/tree/editions/3.0

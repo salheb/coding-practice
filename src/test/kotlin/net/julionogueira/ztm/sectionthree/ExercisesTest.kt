@@ -15,4 +15,10 @@ class ExercisesTest {
             .statusCode(200)
             .body(`is`("Never found nemo =/ ."))
     }
+
+    @Test
+    fun testMergeSortedArrays(){
+
+    }
+
 }
