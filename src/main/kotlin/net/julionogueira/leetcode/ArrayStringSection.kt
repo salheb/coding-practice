@@ -94,4 +94,8 @@ class ArrayStringSection {
         }
 
     }
+
+    fun removeElement(nums: IntArray, values: Int){
+
+    }
 }

@@ -144,4 +144,25 @@ class ExercisesResource {
 
         return jsonObject.toString()
     }
+
+    @GET
+    @Path("/leetcode/remove-element")
+    @Produces(MediaType.APPLICATION_JSON)
+    fun removeElement() {
+        val nums = intArrayOf(3,2,2,3) // Input array
+        val value = 3 // Value to remove
+        val expectedNums = intArrayOf(2,2) // The expected answer with correct length.
+        // It is sorted with no values equaling val.
+
+        val exercises = ArrayStringSection()
+        val k = exercises.removeElement(nums, values) // Calls your implementation
+
+        val kAnswer = assert(k == expectedNums.size).toString()
+        val numsAnswer = Array<String?>(nums.size) { null }
+        nums.sort(0, k)
+        for (i in 0 until k) {
+
+            assert(nums[i] == expectedNums[i])
+        }
+    }
 }
